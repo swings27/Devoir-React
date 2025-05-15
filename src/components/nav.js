@@ -3,10 +3,6 @@ import { Link } from 'react-router-dom';
 
 function Nav() {
     return (
-        <header>
-            <div>
-                <h4>JOHN DOE</h4>
-            </div>
             <nav>
                 <ul>
                     <li>
@@ -26,7 +22,6 @@ function Nav() {
                     </li>
                 </ul>
             </nav>
-        </header>
     );
 };
 

@@ -11,7 +11,10 @@ import Legals from './pages/legals';
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <header>
+        <h3>JOHN DOE</h3>
+        <Nav />
+      </header>
       <Routes>
         <Route path ="/" element={<Home />} />
         <Route path ="/services" element={<Services />} />
