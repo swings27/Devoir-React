@@ -5,7 +5,7 @@ const Header = (props) => {
         <>
             <img src={props.source} alt="image bleu artistique" />
             <h1>{props.title}</h1>
-            <h4>{props.description}</h4>
+            <p>{props.description}</p>
             <hr />
         </>
     )

@@ -1,9 +1,13 @@
 import React from 'react';
+import Header from'../components/header';
 
 export default function Legals() {
     return (
         <>
-            <h1>Mention légales</h1>
+            <Header title="Mentions légales" />
+            <div>
+                
+            </div>
         </>
     )
 };
