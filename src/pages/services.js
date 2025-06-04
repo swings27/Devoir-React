@@ -16,7 +16,7 @@ export default function Services() {
     return (
         <>
             <div>
-                <Header source="" title="Mon offre de services" description="Voici les prestations sur lesquelles je peux intervenir" />
+                <Header source="./banner.jpg" alt="image graphique bleue" title="Mon offre de services" description="Voici les prestations sur lesquelles je peux intervenir" />
             </div>
             <div className="services">
                 <Offer source="" alternative="logo pinceau" name="UX Design" description="L'UX design est une discipline qui consiste à concevoir des produits (sites web,
