@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/header';
+import Form from '../components/form';
 
 export default function Contact() {
 
@@ -21,6 +22,7 @@ export default function Contact() {
                 <div className="formulaire">
                     <h2>Formulaire de contact</h2>
                     <hr />
+                    <Form />
                 </div>
                 <div className="infos">
                     <h2>Mes coordonnées</h2>
