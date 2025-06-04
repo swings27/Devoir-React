@@ -33,7 +33,7 @@ export default function Form() {
             <textarea 
                 name="message" 
                 placeholder="Votre message" 
-                rows="20" cols="80" 
+                rows="20" cols="70" 
                 required>
             </textarea>
             <br />
