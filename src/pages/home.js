@@ -22,13 +22,15 @@ function Home() {
                 <div classname="card">
                     <div classname="apropos">
                         <h3>A propos</h3>
-                            <p>IMAGE</p>
+                        <hr />
+                            <img src="./john-doe-about.jpg" alt="portrait d'une personne" height="200" />
                             <Lorem />
                             <Lorem />
                             <Lorem />
                     </div>
                     <div className="skills">
                         <h3>Mes compétences</h3>
+                        <hr />
                             <Skills name="HTML5" percent="90%" />
                             <Skills name="CSS3" percent="80%" />
                             <Skills name="JAVASCRIPT" percent="70%" />
