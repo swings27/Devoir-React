@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/header';
 import Form from '../components/form';
+import MyMap from '../components/map';
 
 export default function Contact() {
 
@@ -31,6 +32,7 @@ export default function Contact() {
                     <Coordinates infos="69009 Lyon, France" />
                     <Coordinates infos="10 20 30 40 50" />
                     <Coordinates infos="john.doe@gmail.com" />
+                    <MyMap />
                 </div>
             </div>
         </>
