@@ -6,6 +6,7 @@ import Services from './pages/services';
 import Portfolio from './pages/portfolio';
 import Contact from './pages/contact';
 import Legals from './pages/legals';
+import './App.css';
 
 function App() {
   return (

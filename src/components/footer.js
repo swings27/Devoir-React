@@ -3,22 +3,25 @@ import Nav from "./nav";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
+	const Project = (props) => {
+		return (
+			<Link to="/portfolio" className="nav-link">
+				{props.name}
+			</Link>
+		);
+	};
 
-const Project = (props) => {
-  return <Link to="/portfolio" className="nav-link"><p>{props.name}</p></Link>
-};
-
-  return (
-    <footer
-			className="mt-auto text-white bg-dark border-bottom border-body"
+	return (
+		<footer
+			className="mt-auto text-white bg-dark border-body"
 			data-bs-theme="dark"
 		>
 			<div className="container">
 				<div className="d-flex flex-row">
 					<div className="infos col-md-4 mb-3">
-						<h5>John Doe</h5>
-						<p>40 rue Laure Diebold</p>
-						<p>69009 LYON, France</p>
+						<h4>John Doe</h4>
+						<div>40 rue Laure Diebold</div>
+						<div>69009 LYON, France</div>
 						<a href="tel:1020304050" className="nav-link">
 							10 20 30 40 50
 						</a>
@@ -26,13 +29,25 @@ const Project = (props) => {
 							jane.doe@gmail.com
 						</a>
 						<ul className="list-inline social-icons">
-          					<li className="list-inline-item"><a href="#"><i className="bi bi-github"></i></a></li>
-          					<li className="list-inline-item"><a href="#"><i className="bi bi-twitter"></i></a></li>
-          					<li className="list-inline-item"><a href="#"><i className="bi bi-linkedin"></i></a></li>
-        				</ul>
+							<li className="list-inline-item">
+								<a href="#">
+									<i className="bi bi-github"></i>
+								</a>
+							</li>
+							<li className="list-inline-item">
+								<a href="#">
+									<i className="bi bi-twitter"></i>
+								</a>
+							</li>
+							<li className="list-inline-item">
+								<a href="#">
+									<i className="bi bi-linkedin"></i>
+								</a>
+							</li>
+						</ul>
 					</div>
 					<div className="navigation col-md-4 mb-3">
-						<h5>Liens utiles</h5>
+						<h4>Liens utiles</h4>
 						<ul className="list-unstyled">
 							<li className="nav-item">
 								<Link to="/" className="nav-link">
@@ -62,7 +77,7 @@ const Project = (props) => {
 						</ul>
 					</div>
 					<div className="projects col-md-4 mb-3">
-						<h5>Mes dernières réalisations</h5>
+						<h4>Mes dernières réalisations</h4>
 						<ul className="list-unstyled">
 							<li className="nav-item">
 								<Project name="Fresh Food" />
@@ -87,5 +102,5 @@ const Project = (props) => {
 				</div>
 			</div>
 		</footer>
-  );
+	);
 }
