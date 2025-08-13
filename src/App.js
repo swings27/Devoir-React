@@ -11,7 +11,6 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h3>JOHN DOE</h3>
         <Nav />
       </header>
       <Routes>
