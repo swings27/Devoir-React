@@ -4,17 +4,21 @@
 
 i {
   font-size: 1.8em;
-  color: rgba(255, 255, 255, 0.229);
+  color: rgb(73, 80, 87);
 }
 
 i:hover {
-  color: rgba(255, 255, 255, 0.455);
+  color: rgb(255, 255, 255);
 }
 
 footer {
   padding: 20px;
 }
 
-.mb-3 {
-  margin: none;
+nav ul li:hover {
+  text-decoration: underline;
+}
+
+.list-unstyled li:hover {
+  font-weight: bold;
 }

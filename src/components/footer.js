@@ -30,17 +30,17 @@ export default function Footer() {
 						</a>
 						<ul className="list-inline social-icons">
 							<li className="list-inline-item">
-								<a href="#">
+								<a href="https://github.com/swings27" target="_blank" rel="nofollow">
 									<i className="bi bi-github"></i>
 								</a>
 							</li>
 							<li className="list-inline-item">
-								<a href="#">
+								<a href="https://x.com/" target="_blank" rel="nofollow">
 									<i className="bi bi-twitter"></i>
 								</a>
 							</li>
 							<li className="list-inline-item">
-								<a href="#">
+								<a href="https://www.linkedin.com/in/anna-trabaud-b299a3180/" target="_blank" rel="nofollow">
 									<i className="bi bi-linkedin"></i>
 								</a>
 							</li>
