@@ -1,9 +1,9 @@
-i {
+footer i {
   font-size: 1.8em;
   color: rgb(73, 80, 87);
 }
 
-i:hover {
+footer i:hover {
   color: rgb(255, 255, 255);
 }
 
