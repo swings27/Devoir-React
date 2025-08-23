@@ -1,43 +1,59 @@
-import React from 'react';
+import React from "react";
 
 export default function Form() {
-    return (
-        <form >  
-            <input 
-                type ="text" 
-                name="username" 
-                placeholder="Votre nom" 
-                required />
-            <br />
-            <input 
-                type="text" 
-                name="email" 
-                placeholder="Votre adresse mail" 
-                required />
-            <br />
-            <input 
-                type="number" 
-                name="phone number" 
-                placeholder="Votre numéro de téléphone" 
-                maxlength="10" 
-                required/>
-            <br />
-            <input 
-                type="text" 
-                name="subject" 
-                placeholder="Sujet" 
-                minlength="10" 
-                maxlength="30" 
-                required/>
-            <br />
-            <textarea 
-                name="message" 
-                placeholder="Votre message" 
-                rows="20" cols="70" 
-                required>
-            </textarea>
-            <br />
-            <button type="submit">Envoyer</button>
-        </form>
-    );
-};
+	return (
+		<form>
+			<div className="mb-2">
+				<input
+					type="text"
+					className="form-control"
+					name="username"
+					placeholder="Votre nom"
+					required
+				/>
+			</div>
+			<div className="mb-2">
+				<input
+					type="text"
+					className="form-control"
+					name="email"
+					placeholder="Votre adresse mail"
+					required
+				/>
+			</div>
+			<div className="mb-2">
+				<input
+					type="number"
+					className="form-control"
+					name="phone number"
+					placeholder="Votre numéro de téléphone"
+					maxlength="10"
+					required
+				/>
+			</div>
+			<div className="mb-2">
+				<input
+					type="text"
+					className="form-control"
+					name="subject"
+					placeholder="Sujet"
+					minlength="10"
+					maxlength="30"
+					required
+				/>
+			</div>
+			<div className="mb-2">
+				<textarea
+					name="message"
+					className="form-control"
+					placeholder="Votre message"
+					rows="13"
+					required
+				></textarea>
+			</div>
+            <div className="d-grid col-2 mx-auto mt-3">
+			 <button type="submit" className="btn btn-primary">Envoyer</button>
+            </div>
+		</form>
+	);
+}
