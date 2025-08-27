@@ -1,40 +1,37 @@
-import React from 'react';
-import Header from '../components/header';
-import Form from '../components/form';
-import MyMap from '../components/map';
+import React from "react";
+import Header from "../components/header";
+import Form from "../components/form";
+import MyMap from "../components/map";
+import Contactcard from "../components/contactcard";
 
 export default function Contact() {
 
-    const Coordinates = (props) => {
-        return ( <span>
-            <img src={props.source} alt="icon"/>
-            <p>{props.infos}</p>
-        </span>
-        );
-    };
-
-    return (
-        <>
-            <div>
-                <Header title="Contact" description="Pour me contacter en vue d'un entretien ou d'une future collaboration, merci de remplir
-                le formulaire de contact." />
-            </div>
-            <div>
-                <div className="formulaire">
-                    <h2>Formulaire de contact</h2>
-                    <hr />
-                    <Form />
-                </div>
-                <div className="infos">
-                    <h2>Mes coordonnées</h2>
-                    <hr />
-                    <Coordinates infos="40 rue Laure Diebold" />
-                    <Coordinates infos="69009 Lyon, France" />
-                    <Coordinates infos="10 20 30 40 50" />
-                    <Coordinates infos="john.doe@gmail.com" />
-                    <MyMap />
-                </div>
-            </div>
-        </>
-    );
-};
+	return (
+		<>
+			<div>
+				<Header
+					title="Contact"
+					description="Pour me contacter en vue d'un entretien ou d'une future collaboration, merci de remplir
+                le formulaire de contact."
+				/>
+			</div>
+			<div className="card my-5 mx-auto p-3" style={{ width: "60vw" }}>
+				<div className="d-flex flex-row gap-4">
+					<div className="formulaire w-50">
+						<h2>Formulaire de contact</h2>
+						<hr className="border border-primary border-3 opacity-75 mb-5" />
+						<Form />
+					</div>
+					<div className="infos w-50">
+						<h2>Mes coordonnées</h2>
+						<hr className="border border-primary border-3 opacity-75 mb-5" />
+						<div className="mb-4">
+                            <Contactcard />
+						</div>
+						<MyMap />
+					</div>
+				</div>
+			</div>
+		</>
+	);
+}
