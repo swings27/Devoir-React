@@ -35,7 +35,7 @@ export default function MyMap() {
       mapContainerStyle={containerStyle}
       center={center}
       zoom={14.5}
-      
+      onLoad={onLoad}
       onUnmount={onUnmount}
     >
     <Marker
