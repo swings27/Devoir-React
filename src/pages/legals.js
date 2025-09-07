@@ -80,9 +80,7 @@ export default function Legals() {
 							<h4>Crédits</h4>
 							<p>
 								Ce site a été réalisé par Jane Doe, étudiante au{" "}
-								<a
-									href="https://www.centre-europeen-formation.fr/"
-								>
+								<a href="https://www.centre-europeen-formation.fr/">
 									Centre Européen de Formation
 								</a>
 								.
@@ -90,16 +88,11 @@ export default function Legals() {
 							<p>
 								Les images utilisées sur e site sont libres de droits et ont été
 								obtenues sur le site{" "}
-								<a href="https://pixabay.com/fr/">
-									Pixabay
-								</a>
-								.
+								<a href="https://pixabay.com/fr/">Pixabay</a>.
 							</p>
 							<p>
 								La favicon de ce site a été fournie par{" "}
-								<a
-									href="https://www.flaticon.com/de/kostenlose-icons/john-doe"
-								>
+								<a href="https://www.flaticon.com/de/kostenlose-icons/john-doe">
 									John doe Icons erstellt von Freepik - Flaticon
 								</a>
 								.

@@ -1,4 +1,5 @@
 import React from "react";
+import MyModal from "../components/modal";
 
 function Home() {
 	const Lorem = () => {
@@ -32,7 +33,7 @@ function Home() {
 					style={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)" }}>
 						<h1 className="display-4 fw-bold mb-4">Bonjour, je suis Jane Doe</h1>
 						<h2 className="display-6 fw-bold mb-4">Développeur web full stack</h2>
-						<button type="button" className="btn btn-danger">En savoir plus</button>
+						<MyModal />
 					</div>
 				</div>
 			</section>
