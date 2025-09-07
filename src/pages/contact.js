@@ -15,7 +15,7 @@ export default function Contact() {
                 le formulaire de contact."
 				/>
 			</div>
-			<div className="card my-5 mx-auto p-3" style={{ width: "60vw" }}>
+			<div className="my-5 mx-auto p-3 w-75" style={{ boxShadow: "0 2px 10px lightgrey", borderRadius: "10px" }}>
 				<div className="d-flex flex-row gap-4">
 					<div className="formulaire w-50">
 						<h2>Formulaire de contact</h2>

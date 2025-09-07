@@ -19,3 +19,18 @@ nav ul li:hover {
 .list-unstyled li:hover {
   font-weight: bold;
 }
+
+button {
+  --bs-btn-hover-bg: #{shade-color(15%)};
+}
+
+.card .btn-primary:hover {
+  background-color: rgb(13, 130, 253);
+  border-color: rgb(13,130,253);
+}
+
+.card:hover {
+  box-shadow: 3px 3px 10px;
+  background-color: #efefef;
+  transition: all 0.5s ease-in;
+}
