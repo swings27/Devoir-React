@@ -37,15 +37,15 @@ function Home() {
 					</div>
 				</div>
 			</section>
-			<section className="card my-5 mx-auto p-3" style={{ width: "70%" }}>
+			<section className="my-5 mx-auto p-3 w-75" style={{ boxShadow: "0 2px 10px lightgrey", borderRadius: "10px" }}>
 				<div className="d-flex flex-row gap-4">
-					<div classname="card-body" style={{ width: "50%" }}>
-						<h3 className="card-title">A propos</h3>
+					<div classname="w-50">
+						<h3>A propos</h3>
 						<hr className="border border-primary border-3 opacity-75 mb-5" />
 						<img
 							src="./john-doe-about.jpg"
 							alt="portrait d'une personne"
-							width="100%"
+							width= "100%"
 							/>
 							<div className="my-4">
 								<Lorem />
@@ -53,8 +53,8 @@ function Home() {
 								<Lorem />
 							</div>
 					</div>
-					<div className="card-body p-0" style={{ width: "50%" }}>
-						<h3 className="card-title">Mes compétences</h3>
+					<div className="p-0 w-100">
+						<h3>Mes compétences</h3>
 						<hr className="border border-primary border-3 opacity-75 mb-5" />
 						<div className="my-4 p-2">
 						<Skills name="HTML5" percent="75" progress="progress-bar bg-danger w-75"/>
