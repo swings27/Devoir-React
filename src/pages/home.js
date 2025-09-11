@@ -23,7 +23,7 @@ function Home() {
 	};
 
 	return (
-		<>
+		<div>
 			<section className="firstsection text-white">
 				<div
 					className="img-fluid"
@@ -65,7 +65,7 @@ function Home() {
 					</div>
 				</div>
 			</section>
-		</>
+		</div>
 	);
 }
 
