@@ -4,9 +4,9 @@ import Contactcard from "../components/contactcard";
 
 export default function Legals() {
 	return (
-		<>
+		<div className="min-vh-100">
 			<Header title="Mentions légales" />
-			<div className="accordion w-75 mx-auto mb-5" id="accordionExample">
+			<div className="accordion w-75 mx-auto" id="accordionExample">
 				<div className="accordion-item">
 					<h2 className="accordion-header">
 						<button
@@ -49,7 +49,7 @@ export default function Legals() {
 						data-bs-parent="#accordionExample"
 					>
 						<div class="accordion-body">
-							<h4>alwaysdata</h4>
+							<h4 className="fw-bold">alwaysdata</h4>
 							<p>91 Rue du Faubourg saint-Honoré, 75008 Paris</p>
 							<p>
 								<i class="bi bi-globe"></i>{" "}
@@ -77,7 +77,7 @@ export default function Legals() {
 						data-bs-parent="#accordionExample"
 					>
 						<div className="accordion-body">
-							<h4>Crédits</h4>
+							<h4 className="fw-bold">Crédits</h4>
 							<p>
 								Ce site a été réalisé par Jane Doe, étudiante au{" "}
 								<a href="https://www.centre-europeen-formation.fr/">
@@ -101,6 +101,6 @@ export default function Legals() {
 					</div>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 }
