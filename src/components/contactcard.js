@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contactcard() {
 	return (
-		<>
+		<div className="container-fluid">
 			<h4 className="mb-3">Jane Doe</h4>
 			<p className="m-0">
 				<i className="bi bi-map"></i> 40 rue Laure Diebold
@@ -16,6 +16,6 @@ export default function Contactcard() {
             <p className="m-0">
 				<i className="bi bi-envelope-alt"></i> john.doe@gmail.com
 			</p>
-		</>
+		</div>
 	);
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import Nav from "./nav";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
@@ -16,9 +15,9 @@ export default function Footer() {
 			className="mt-auto text-white bg-dark border-body"
 			data-bs-theme="dark"
 		>
-			<div className="container">
-				<div className="d-flex flex-row">
-					<div className="infos col-md-4 mb-3">
+			<div className="container-fluid">
+				<div className="d-sm-flex flex-row">
+					<div className="col-sm-4 mb-3">
 						<h4>John Doe</h4>
 						<div>40 rue Laure Diebold</div>
 						<div>69009 LYON, France</div>
@@ -46,7 +45,7 @@ export default function Footer() {
 							</li>
 						</ul>
 					</div>
-					<div className="navigation col-md-4 mb-3">
+					<div className="col-sm-4 mb-3">
 						<h4>Liens utiles</h4>
 						<ul className="list-unstyled">
 							<li className="nav-item">
@@ -76,7 +75,7 @@ export default function Footer() {
 							</li>
 						</ul>
 					</div>
-					<div className="projects col-md-4 mb-3">
+					<div className="col-sm-4 mb-3">
 						<h4>Mes dernières réalisations</h4>
 						<ul className="list-unstyled">
 							<li className="nav-item">

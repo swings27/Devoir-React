@@ -37,9 +37,9 @@ function Home() {
 					</div>
 				</div>
 			</section>
-			<section className="my-5 mx-auto p-3 w-75" style={{ boxShadow: "0 2px 10px lightgrey", borderRadius: "10px" }}>
-				<div className="d-flex flex-row gap-4">
-					<div classname="w-50">
+			<section className="container my-5 mx-auto p-4 w-75" style={{ boxShadow: "0 2px 10px lightgrey", borderRadius: "10px" }}>
+				<div className="d-sm-flex flex-row gap-4">
+					<div classname="col-sm-6">
 						<h3>A propos</h3>
 						<hr className="border border-primary border-3 opacity-75 mb-5" />
 						<img
@@ -53,7 +53,7 @@ function Home() {
 								<Lorem />
 							</div>
 					</div>
-					<div className="p-0 w-100">
+					<div className="col-sm-6">
 						<h3>Mes compétences</h3>
 						<hr className="border border-primary border-3 opacity-75 mb-5" />
 						<div className="my-4 p-2">
