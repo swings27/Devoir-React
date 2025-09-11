@@ -1,5 +1,6 @@
 import React from "react";
 import MyModal from "../components/modal";
+import ProgressBar from 'react-bootstrap/ProgressBar'
 
 function Home() {
 	const Lorem = () => {
@@ -14,12 +15,10 @@ function Home() {
 
 	const Skills = (props) => {
 		return (
-			<>
+			<div className="pb-4">
 			<h5>{props.name} {props.percent}%</h5>
-			<div className="progress mb-4" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-				<div className={props.progress} style={props.width}></div>
+			<ProgressBar variant={props.progress} now={props.percent}/>
 			</div>
-			</>
 		);
 	};
 
@@ -57,11 +56,11 @@ function Home() {
 						<h3 className="fw-bold">Mes compétences</h3>
 						<hr className="border border-primary border-3 opacity-75 mb-5" />
 						<div className="my-4 p-2">
-						<Skills name="HTML5" percent="75" progress="progress-bar bg-danger w-75"/>
-						<Skills name="CSS3" percent="75" progress="progress-bar bg-info w-75"/>
-						<Skills name="JAVASCRIPT" percent="50" progress="progress-bar bg-warning w-50"/>
-						<Skills name="PHP" percent="0" progress="progress-bar bg-success"/>
-						<Skills name="REACT" percent="25" progress="progress-bar w-25"/>
+						<Skills name="HTML5" percent="90" progress="danger"/>
+						<Skills name="CSS3" percent="80" progress="info"/>
+						<Skills name="JAVASCRIPT" percent="70" progress="warning"/>
+						<Skills name="PHP" percent="60" progress="success"/>
+						<Skills name="REACT" percent="50"/>
 						</div>
 					</div>
 				</div>
