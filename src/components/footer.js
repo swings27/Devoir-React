@@ -11,14 +11,11 @@ export default function Footer() {
 	};
 
 	return (
-		<footer
-			className="mt-auto text-white bg-dark border-body"
-			data-bs-theme="dark"
-		>
+		<footer className="text-white bg-dark border-body" data-bs-theme="dark">
 			<div className="container-fluid">
-				<div className="d-sm-flex flex-row">
-					<div className="col-sm-4 mb-3">
-						<h4>John Doe</h4>
+				<div className="d-sm-flex flex-row mx-auto w-75 p-5">
+					<div className="col-sm-4">
+						<h4>Jane Doe</h4>
 						<div>40 rue Laure Diebold</div>
 						<div>69009 LYON, France</div>
 						<a href="tel:1020304050" className="nav-link">
@@ -27,25 +24,35 @@ export default function Footer() {
 						<a href="mailto:jane.doe@gmail.com" className="nav-link">
 							jane.doe@gmail.com
 						</a>
-						<ul className="list-inline social-icons">
-							<li className="list-inline-item">
-								<a href="https://github.com/swings27" target="_blank" rel="nofollow">
-									<i className="bi bi-github"></i>
-								</a>
-							</li>
-							<li className="list-inline-item">
-								<a href="https://x.com/" target="_blank" rel="nofollow">
-									<i className="bi bi-twitter"></i>
-								</a>
-							</li>
-							<li className="list-inline-item">
-								<a href="https://www.linkedin.com/in/anna-trabaud-b299a3180/" target="_blank" rel="nofollow">
-									<i className="bi bi-linkedin"></i>
-								</a>
-							</li>
-						</ul>
+						<div className="pt-3">
+							<ul className="list-inline social-icons">
+								<li className="list-inline-item">
+									<a
+										href="https://github.com/swings27"
+										target="_blank"
+										rel="nofollow"
+									>
+										<i className="bi bi-github"></i>
+									</a>
+								</li>
+								<li className="list-inline-item">
+									<a href="https://x.com/" target="_blank" rel="nofollow">
+										<i className="bi bi-twitter"></i>
+									</a>
+								</li>
+								<li className="list-inline-item">
+									<a
+										href="https://www.linkedin.com/in/anna-trabaud-b299a3180/"
+										target="_blank"
+										rel="nofollow"
+									>
+										<i className="bi bi-linkedin"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
 					</div>
-					<div className="col-sm-4 mb-3">
+					<div className="col-sm-4">
 						<h4>Liens utiles</h4>
 						<ul className="list-unstyled">
 							<li className="nav-item">
@@ -75,7 +82,7 @@ export default function Footer() {
 							</li>
 						</ul>
 					</div>
-					<div className="col-sm-4 mb-3">
+					<div className="col-sm-4">
 						<h4>Mes dernières réalisations</h4>
 						<ul className="list-unstyled">
 							<li className="nav-item">

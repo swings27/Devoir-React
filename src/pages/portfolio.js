@@ -7,7 +7,7 @@ export default function Portfolio() {
 			<div className="card col col-sm-4 col-md-3 text-center m-3">
 				<img src={props.source} alt={props.alternative} />
 				<div className="card-body">
-					<h3 className="card-title">{props.title}</h3>
+					<h3 className="card-title fw-bold">{props.title}</h3>
 					<p className="card-text">{props.description}</p>
 					<button className="btn btn-primary">Voir le site</button>
 				</div>

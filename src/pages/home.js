@@ -40,7 +40,7 @@ function Home() {
 			<section className="container my-5 mx-auto p-4 w-75" style={{ boxShadow: "0 2px 10px lightgrey", borderRadius: "10px" }}>
 				<div className="d-sm-flex flex-row gap-4">
 					<div classname="col-sm-6">
-						<h3>A propos</h3>
+						<h3 className="fw-bold">A propos</h3>
 						<hr className="border border-primary border-3 opacity-75 mb-5" />
 						<img
 							src="./john-doe-about.jpg"
@@ -54,7 +54,7 @@ function Home() {
 							</div>
 					</div>
 					<div className="col-sm-6">
-						<h3>Mes compétences</h3>
+						<h3 className="fw-bold">Mes compétences</h3>
 						<hr className="border border-primary border-3 opacity-75 mb-5" />
 						<div className="my-4 p-2">
 						<Skills name="HTML5" percent="75" progress="progress-bar bg-danger w-75"/>
